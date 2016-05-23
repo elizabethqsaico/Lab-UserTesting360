@@ -1,3 +1,57 @@
+/*{outline:1px solid rgba(255,0,0,0.3);}*/
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  color: #2E2E2E;
+}
 
+h1, h2, h3, h4, h5 {
+  color: #fff;
+}
 
-/*# sourceMappingURL=main.css.map */
+a {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+header {
+  background: url(../image/large.jpg);
+  background-size: cover;
+  background-position: top;
+  margin: 0;
+  padding: 0;
+}
+
+header .opacity {
+  background-color: rgba(29, 38, 76, 0.5);
+}
+
+header .col-md-4, .col-md-8 {
+  margin: 0;
+  padding: 0;
+  margin-top: 2%;
+}
+
+header img {
+  max-width: 50%;
+  margin-left: 15%;
+}
+
+header .list-menu a {
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+header .row:nth-child(2) h2 {
+  padding: 10% 25%;
+  font-size: 35px;
+}
+
+header .row:nth-child(3) {
+  background-color: rgba(29, 101, 183, 0.7);
+}
+
+header p {
+  color: #fff;
+}

@@ -10,32 +10,34 @@ html(lang="en")
     script(src='js/bootstrap.min.js')
     link(rel='stylesheet' href='css/bootstrap.min.css')
     link(rel='stylesheet' href='css/icomoon.css')
-    link(rel='stylesheet' href='css/font-awesome.css')
+    link(rel='stylesheet' href='css/font-awesome.min.css')
     link(rel='stylesheet' href='css/main.css')
   body
-    header      
-      .row
-        .col-md-4
-          img(src='image/user-r.png')
-        .col-md-8
-          ul.list-inline
-            li
-              a(href='#') ¿Qué me ofrece?
-            li
-              a(href='#') ¿Cómo funciona?
-            li
-              a(href='#') ¿Por qué usarlo?
-            li
-              a(href='#') Contáctanos
-      .container
+    header 
+      .opacity
         .row
-          h1 Obtén videos de personas reales utilizando tu sitio web, en 1 hora
+          .col-md-4
+            img(src='image/user-r.png')
+          .col-md-8
+            ul.list-inline.text-right.list-menu
+              li
+                a(href='#') ¿Qué me ofrece?
+              li
+                a(href='#') ¿Cómo funciona?
+              li
+                a(href='#') ¿Por qué usarlo?
+              li
+                a(href='#') Contáctanos
+        .row.text-center
+          .container
+          h2 Obtén videos de personas reales utilizando tu sitio web, en 1 hora
         .row
-          .col-md-6
-            h1 PRUEBA GRATUITA
-            p Obtén un video gratis de 5 minutos
-          .col-md-6
-            button Pruebalo gratis
+          .container
+            .col-md-6.text-right
+              h3 PRUEBA GRATUITA
+              p Obtén un video gratis de 5 minutos
+            .col-md-6
+              a.btn(href='#' type="button") Pruebalo gratis
     section#servicios
       .container
         .row
